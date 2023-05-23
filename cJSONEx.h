@@ -1,5 +1,5 @@
-#ifndef _MY_CJSON_
-#define _MY_CJSON_
+#ifndef __CJSONEX_H__
+#define __CJSONEX_H__
 
 #include "cJSON.h"
 #include "stdbool.h"
@@ -32,4 +32,4 @@ CJSON_PUBLIC(cJSON*) cJSON_AddObjectToObject(cJSON * const object, const char * 
 CJSON_PUBLIC(cJSON*) cJSON_AddArrayToObject(cJSON * const object, const char * const name);
 
 
-#endif // !_MY_CJSON_
+#endif // !__CJSONEX_H__
